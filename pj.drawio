@@ -37,26 +37,20 @@
         <mxCell id="j8199OsGkyXpgyM0app1-9" value="Remove duplicate entries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
           <mxGeometry x="270" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j8199OsGkyXpgyM0app1-6" source="j8199OsGkyXpgyM0app1-10" target="j8199OsGkyXpgyM0app1-12" edge="1">
+        <mxCell id="i6hXiYPeF73-tU8b1XCi-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j8199OsGkyXpgyM0app1-6" source="j8199OsGkyXpgyM0app1-10" target="j8199OsGkyXpgyM0app1-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-10" value="&lt;p data-pm-slice=&quot;1 1 []&quot; style=&quot;&quot;&gt;&lt;font&gt;Remove missing values that were excessive or uninterpretable.&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f3e3b4, #281d00);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
+        <mxCell id="j8199OsGkyXpgyM0app1-10" value="&lt;p data-pm-slice=&quot;1 1 []&quot; style=&quot;&quot;&gt;&lt;font&gt;Transform the data into numeric values&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f3e3b4, #281d00);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
           <mxGeometry x="435" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j8199OsGkyXpgyM0app1-6" source="j8199OsGkyXpgyM0app1-12" target="j8199OsGkyXpgyM0app1-22" edge="1">
+        <mxCell id="j8199OsGkyXpgyM0app1-12" value="&lt;p data-pm-slice=&quot;1 1 []&quot; style=&quot;&quot;&gt;&lt;font&gt;Selecting health-related attributes&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ffd970, #ededed);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6hXiYPeF73-tU8b1XCi-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j8199OsGkyXpgyM0app1-6" source="j8199OsGkyXpgyM0app1-24" target="j8199OsGkyXpgyM0app1-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-12" value="&lt;p data-pm-slice=&quot;1 1 []&quot; style=&quot;&quot;&gt;&lt;font&gt;Selecting health-related attributes&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fbe5a7, #ededed);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
-          <mxGeometry x="435" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j8199OsGkyXpgyM0app1-6" source="j8199OsGkyXpgyM0app1-22" target="j8199OsGkyXpgyM0app1-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-22" value="One-Hot Encoding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ffe18f, #ededed);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
-          <mxGeometry x="270" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j8199OsGkyXpgyM0app1-24" value="&lt;span data-end=&quot;31&quot; data-start=&quot;14&quot;&gt;SimpleImputer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
-          <mxGeometry x="105" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="j8199OsGkyXpgyM0app1-24" value="&lt;span data-end=&quot;31&quot; data-start=&quot;14&quot;&gt;SimpleImputer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ffe494, #543300);" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
+          <mxGeometry x="435" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j8199OsGkyXpgyM0app1-27" value="&lt;div&gt;Data Preprocessing&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="j8199OsGkyXpgyM0app1-6" vertex="1">
           <mxGeometry x="15" y="10" width="127" height="30" as="geometry" />
@@ -128,6 +122,9 @@
         </mxCell>
         <mxCell id="i6hXiYPeF73-tU8b1XCi-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#e3ccf0, #EDEDED);" vertex="1" parent="i6hXiYPeF73-tU8b1XCi-1">
           <mxGeometry x="23.5" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i6hXiYPeF73-tU8b1XCi-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j8199OsGkyXpgyM0app1-12" target="j8199OsGkyXpgyM0app1-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
