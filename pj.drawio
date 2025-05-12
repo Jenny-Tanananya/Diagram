@@ -97,7 +97,7 @@
         <mxCell id="Agzg5IFcnS0c5Nz8dbDu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j8199OsGkyXpgyM0app1-6" source="Agzg5IFcnS0c5Nz8dbDu-9" target="j8199OsGkyXpgyM0app1-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Agzg5IFcnS0c5Nz8dbDu-9" value="Ordinal encoding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fef6d7, #281d00);" vertex="1" parent="j8199OsGkyXpgyM0app1-6">
+        <mxCell id="Agzg5IFcnS0c5Nz8dbDu-9" value="Categorical Encoding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fef6d7, #281d00);" vertex="1" parent="j8199OsGkyXpgyM0app1-6">
           <mxGeometry x="435" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Agzg5IFcnS0c5Nz8dbDu-14" value="LabelEncoder" style="rounded=0;fillColor=light-dark(#fef6d7, #543300);fontColor=default;whiteSpace=wrap;" vertex="1" parent="j8199OsGkyXpgyM0app1-6">
